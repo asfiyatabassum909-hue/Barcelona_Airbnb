@@ -44,7 +44,7 @@ A one-page Power BI dashboard analysing **15,293 Barcelona Airbnb listings acros
 | **Revenue** | Avg Est. Annual Revenue by Room Type (heatmap matrix), Top 10 Hosts by Est. Revenue | Earning potential and host concentration |
 | **Narrative** | Key Takeaways box | The story in four lines |
 
-**Interactivity:** the Neighbourhood Group and Room Type slicers filter the whole page.
+**Interactivity:** The Neighbourhood Group and Room Type slicers filter the whole page.
 
 **Design choices**
 - The matrices show the **top 5 groups by listings**, so city-wide totals stay in the KPI cards. This keeps the tables readable and avoids partial totals that disagree with the headline numbers.
@@ -56,7 +56,8 @@ A one-page Power BI dashboard analysing **15,293 Barcelona Airbnb listings acros
 ## 🖼️ Deep Dive: Two Charts That Drive the Story
 
 ### 1. Where the money is: revenue by room type and area
-![Avg Est. Annual Revenue by Room Type](images/revenue-matrix.png)
+<img width="1365" height="267" alt="image" src="https://github.com/user-attachments/assets/8ba5fe21-7cf9-40f1-938c-49bef219e3fe" />
+
 
 **What it shows:** average estimated annual revenue per listing (€K) for the five largest neighbourhood groups, split by room type, with heatmap shading.
 
@@ -75,7 +76,8 @@ A one-page Power BI dashboard analysing **15,293 Barcelona Airbnb listings acros
 ---
 
 ### 2. Who captures the revenue: host concentration
-![Top 10 Hosts by Estimated Annual Revenue](images/top-hosts.png)
+<img width="1355" height="707" alt="image" src="https://github.com/user-attachments/assets/6b37271a-6a36-43bd-b4ec-53059a1dc140" />
+
 
 **What it shows:** the ten hosts with the highest estimated annual revenue, led by Sweett (€12.39M).
 
@@ -209,10 +211,3 @@ DIVIDE(
 │   └── top-hosts.png
 └── README.md
 ```
-
-## 👩‍💻 About Me
-**Asfiya Tabassum**: Data / BI Analyst | B.Sc. Computer Science | 2+ years in KYC, compliance and fraud investigation at Accenture, where I worked with large datasets and risk-based decision-making. I now apply that analytical mindset to turning data into business insight.
-
-📧 asfiyatabassum909@gmail.com · [LinkedIn](https://linkedin.com/in/asfiya-tabassum-554a3035b) · [GitHub](https://github.com/asfiyatabassum909-hue)
-
-⭐ *If you found this useful, feel free to star the repo!*
